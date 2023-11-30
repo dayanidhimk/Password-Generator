@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+h1{
+  font-weight: 500;
+  color: #0b213e;
+}
+header{
+  padding: 20px 100px;
+  background: #041e30;
+  font-size: 20px;
+  font-weight: 400;
+  color: #d5d5e5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+  
+}
+
+a:link, a:visited{
+  text-decoration: none;
+  color: #d5d5e5;
+}
+
+x{
+  display: flex;
+  flex-direction: column;
+  margin-top: 170px;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 355px;
+  background-color: #cdd8e6;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
+.form-group{
+  width: 100%;
+  display: flex;
+  margin:20px 5px ;
+  gap:10px;
+}
+.center-align{
+  margin: auto;
+}
+.button-style1{
+  background-color: #7697c6;
+  border: none;
+  border-radius: 5px;
+  padding: 4px;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.button-style2{
+  background-color: #7697c6;
+  border: none;
+  border-radius: 5px;
+  padding: 2px;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  margin: 2px 1px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.button:hover{
+  background-color: #0b213e;
+  color: #cdd8e6;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.24);
+}
+
+.down-style{
+  background-color: transparent;
+  border: 0.5px solid #d5d5e5;
+  border-radius: 3px;
+  padding: 2px;
+  text-decoration: none;
+  color: #d5d5e5;
+  font-size: 16px;
+  font-weight: 500;
+  transition-duration: 0.3s;
+}
+
+.down-style:hover{
+  color: #cdd8e6;
+  font-size: 18px;
+  border: 1px solid #d5d5e5;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.578);
+  font-weight: 600;
+}
+
+marquee{
+  font-weight: 300;
+}
